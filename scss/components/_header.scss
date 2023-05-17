@@ -1,0 +1,11 @@
+@import "../components/variables";
+
+/* estilos del header */
+
+.menu-fondo {
+    @extend %color-extremos;
+}
+
+.div-botones a:hover {
+    background-color: $color-hover;
+}

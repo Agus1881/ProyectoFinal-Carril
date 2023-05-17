@@ -1,0 +1,133 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* estilos del header */
+.div-botones a:hover {
+  background-color: #ffd000; }
+
+/* estilos del main */
+h1 {
+  font-family: 'Quicksand', sans-serif; }
+
+main {
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 10px; }
+
+main p {
+  font-size: 20px;
+  padding: 20px; }
+
+main div img {
+  border: 3px solid;
+  border-radius: 20px;
+  transition: transform 0.3s;
+  margin: 8px; }
+
+main div img:hover {
+  transform: scale(1.1); }
+
+.home-descripcion {
+  font-size: 24px; }
+
+.pregunta {
+  text-align: start;
+  margin: 20px; }
+
+.respuesta {
+  text-align: start; }
+
+/* estilos del footer */
+footer {
+  font-size: 20px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+footer h2 {
+  font-size: 24px; }
+
+/* estilos extras */
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 28px; }
+
+/* 
+.productos1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+ */
+.productos1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px; }
+
+.productos1 div p {
+  font-size: 36px; }
+
+.productos2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr); }
+
+.productos2 div p {
+  font-size: 36px; }
+
+legend {
+  font-size: 24px;
+  font-weight: bold; }
+
+main form fieldset div input {
+  margin-top: 35px; }
+
+.boton-enviar {
+  margin-top: 40px; }
+
+.bottom-footer-contacto {
+  position: static;
+  bottom: 0;
+  width: 100%; }
+
+.menu-fondo, footer {
+  background-color: orange; }
+
+/* media queries mobile */
+@media screen and (max-width: 480px) {
+  main div img {
+    height: 35vh; }
+  p {
+    font-size: 12px; }
+  footer h2 {
+    font-size: 16px; }
+  footer div img {
+    height: 32px; }
+  .productos1 {
+    display: block;
+    text-align: center; }
+  .productos2 {
+    display: block;
+    text-align: center; }
+  .img-desktop {
+    display: none; }
+  section {
+    font-size: 12px; }
+  .about-descripcion {
+    font-size: 16px; }
+  .pregunta {
+    font-size: 18px; }
+  .respuesta {
+    font-size: 14px; } }
+
+/* media queries tablet */
+@media screen and (max-width: 768px) {
+  .img-desktop {
+    display: none; } }

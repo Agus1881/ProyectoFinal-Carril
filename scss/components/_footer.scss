@@ -1,0 +1,15 @@
+@import "../components/variables";
+@import "../components/mixin";
+
+/* estilos del footer */
+
+footer {
+    @extend %color-extremos;
+    font-size: 20px;
+    height: 80px;
+    @include flex;
+}
+
+footer h2 {
+    font-size: 24px;
+}

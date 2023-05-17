@@ -1,0 +1,44 @@
+@import "../components/variables";
+
+/* estilos del main */
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    text-align: center;
+    background-color: $color-secundario;
+    padding: 10px;
+}
+
+main p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+main div img {
+    border: 3px solid;
+    border-radius: 20px;
+    transition:transform 0.3s;
+    margin: 8px;
+}
+
+main div img:hover{
+    
+    transform: scale(1.1);
+
+}
+
+.home-descripcion{
+    font-size: 24px;
+}
+
+.pregunta{
+    text-align: start;
+    margin: 20px;
+}
+
+.respuesta{
+    text-align: start;
+}

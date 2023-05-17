@@ -1,0 +1,78 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// archivos secundarios
+
+@import "components/header";
+@import "components/main";
+@import "components/footer";
+@import "components/extras";
+@import "components/variables";
+@import "components/mixin";
+@import "components/extend";
+
+
+/* media queries mobile */
+
+@media screen and (max-width:480px) {
+
+    main div img {
+        height: 35vh;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    footer h2 {
+        font-size: 16px;
+    }
+
+    footer div img {
+        height: 32px;
+    }
+
+    .productos1{
+        display: block;
+        text-align: center;
+    }
+
+    .productos2{
+        display: block;
+        text-align: center;
+    }
+
+    .img-desktop {
+        display: none;
+    }
+
+    section {
+        font-size: 12px;
+    }
+
+    .about-descripcion {
+        font-size: 16px;
+    }
+
+    .pregunta {
+        font-size: 18px;
+    }
+
+    .respuesta {
+        font-size: 14px;
+    }
+
+}
+
+/* media queries tablet */
+
+@media screen and (max-width:768px){
+
+    .img-desktop{
+        display: none;
+    }
+}

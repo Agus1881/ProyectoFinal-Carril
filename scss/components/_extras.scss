@@ -1,0 +1,54 @@
+@import "../components/mixin";
+
+/* estilos extras */
+
+section{
+    @include flex;
+    font-size: 28px;
+}
+/* 
+.productos1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+ */
+
+.productos1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.productos1 div p{
+    font-size: 36px;
+}
+
+.productos2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.productos2 div p{
+    font-size: 36px;
+}
+legend {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main form fieldset div input{
+    margin-top: 35px;
+}
+
+.boton-enviar {
+    margin-top: 40px;
+}
+
+.bottom-footer-contacto {
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
