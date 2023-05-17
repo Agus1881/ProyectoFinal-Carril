@@ -101,14 +101,20 @@ main form fieldset div input {
   background-color: orange; }
 
 /* media queries tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
+  .productos1 div p {
+    font-size: 22px; } }
+
+@media screen and (max-width: 850px) {
   .img-desktop {
     display: none; }
   .productos1 {
-    display: grid; } }
+    display: grid; }
+  .productos1 div p {
+    font-size: 20px; } }
 
 /* media queries mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   main div img {
     height: 35vh; }
   p {
