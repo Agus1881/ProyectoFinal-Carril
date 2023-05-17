@@ -100,8 +100,15 @@ main form fieldset div input {
 .menu-fondo, footer {
   background-color: orange; }
 
+/* media queries tablet */
+@media screen and (max-width: 768px) {
+  .img-desktop {
+    display: none; }
+  .productos1 {
+    display: grid; } }
+
 /* media queries mobile */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   main div img {
     height: 35vh; }
   p {
@@ -126,8 +133,3 @@ main form fieldset div input {
     font-size: 18px; }
   .respuesta {
     font-size: 14px; } }
-
-/* media queries tablet */
-@media screen and (max-width: 768px) {
-  .img-desktop {
-    display: none; } }

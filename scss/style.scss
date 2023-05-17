@@ -16,9 +16,24 @@
 @import "components/extend";
 
 
+/* media queries tablet */
+
+@media screen and (max-width:768px){
+
+    .img-desktop{
+        display: none;
+    }
+
+    .productos1{
+        display: grid;
+    }
+}
+
+
+
 /* media queries mobile */
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px) {
 
     main div img {
         height: 35vh;
@@ -68,11 +83,3 @@
 
 }
 
-/* media queries tablet */
-
-@media screen and (max-width:768px){
-
-    .img-desktop{
-        display: none;
-    }
-}
